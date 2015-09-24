@@ -15,6 +15,21 @@
             color: #333;
         }
 
+        .newsletter-ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .newsletter-ul li {
+            display: inline-block;
+            color: #333;
+        }
+
+        .newsletter-ul li a {
+            color: #4F85DF;
+            text-decoration: none;
+        }
+
         @font-face {
             font-family: 'ProximaNova';
             src: url('https://cdn.auth0.com/newsletter/2015-07/fonts/ProximaNova-Regular.eot');
@@ -106,34 +121,26 @@
                         <td align="center" valign="top">
 
                             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse!important">
-
-                                <tr>
-                                    <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-                                    <td valign="top" align="center" style="padding-top: 28px" class="ico">
-                                        <img src="https://cdn.auth0.com/newsletter/2015-07/email.png" width="78" height="78" style="display:block;margin: 0; border: 0; padding: 0;" alt="">
-                                    </td>
-                                    <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-                                </tr>
                                 <tr>
 
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-                                    <td valign="top" align="center" style="padding-top:12px;padding-right:0;padding-bottom:0;padding-left:0;color:#ffffff;font-family: 'ProximaNova', Helvetica, Arial;font-size:30px;line-height:30px;text-align:center" class="title2">Auth0 News</td>
+                                    <td valign="top" align="center" style="padding-top:60px;padding-right:0;padding-bottom:0;padding-left:0;color:#ffffff;font-family: 'ProximaNova', Helvetica, Arial;font-size:32px;line-height:44px;text-align:center" class="title2">Auth0 newsletter title with some random amount of text</td>
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
 
                                 </tr>
-                                <tr>
+                                <!-- <tr>
 
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
                                     <td valign="top" align="center" style="padding-top:1px;padding-right:0;padding-bottom:0;padding-left:0;color:#ffffff;font-family: 'ProximaNova', Helvetica, Arial;font-size:14px;line-height:20px;text-align:center" class="title2">July 2015</td>
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
 
-                                </tr>
+                                </tr> -->
                                 <tr>
-
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-                                    <td valign="top" align="center" style="padding-top:11px;padding-right:0;padding-bottom:34px;padding-left:0;color:#999999;font-family: 'ProximaNova', Helvetica, Arial;font-size:14px;line-height:24px;text-align:center;letter-spacing:-.1px;" class="text2">Hello! We thought you might want to read about some of what’s been happening at Auth0 recently. You can also check out our <a target="_blank" href="http://releases.auth0.com/?utm_source=intercom&utm_medium=email&utm_content=july2015&utm_campaign=newsletter" style="color: #ffffff;text-decoration:none">Release Notes</a> anytime.</td>
+                                    <td valign="top" align="center" style="padding-top: 28px" class="ico">
+                                        <img src="images/banner-img.png" width="500px" height="" style="display:block;margin: 0; border: 0; padding: 0;" alt="">
+                                    </td>
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-
                                 </tr>
                             </table>
 
@@ -175,11 +182,13 @@
                                 </tr>
                                 <tr>
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-                                    <td valign="top" align="center" style="padding-top:20px;padding-right:0;padding-bottom:0;padding-left:0;color:#999999;font-family: 'ProximaNova', Helvetica, Arial;font-size:14px;line-height:24px;text-align:center" class="text"><ul>
-                                        <li>Email</li>
-                                        <li>SMS</li>
-                                        <li>Apple Touch ID</li>
-                                    </ul></td>
+                                    <td valign="top" align="center" style="padding-top:20px;padding-right:0;padding-bottom:0;padding-left:0;color:#999999;font-family: 'ProximaNova', Helvetica, Arial;font-size:14px;line-height:24px;text-align:center" class="text">
+                                        <ul class="newsletter-ul">
+                                            <li><a href="#">Email</a> / </li>
+                                            <li><a href="#">SMS</a> / </li>
+                                            <li><a href="#">Apple Touch ID</a></li>
+                                        </ul>
+                                    </td>
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
                                 </tr>
                                 <tr>
@@ -194,21 +203,13 @@
                                 </tr>
                                 <tr>
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-                                    <td valign="top" align="center" style="padding-top:20px;padding-right:0;padding-bottom:0;padding-left:0;color:#999999;font-family: 'ProximaNova', Helvetica, Arial;font-size:14px;line-height:24px;text-align:center" class="text">
-                                        <ul>
-                                            <li>[Landing page title]</li>
-                                            <li>Auth0’s blog: [Blog post title]</li>
-                                            <li>FAQ</li>
-                                            <li>[Docs]</li>
+                                    <td valign="top" align="center" style="padding-top:20px;padding-right:0;padding-bottom:60px;padding-left:0;color:#999999;font-family: 'ProximaNova', Helvetica, Arial;font-size:14px;line-height:24px;text-align:center" class="text">
+                                        <ul class="newsletter-ul">
+                                            <li><a href="#">[Landing page title]</a> / </li>
+                                            <li><a href="#">Auth0’s blog: [Blog post title]</a> / </li>
+                                            <li><a href="#">FAQ</a> / </li>
+                                            <li><a href="#">[Docs]</a></li>
                                         </ul>
-                                    </td>
-                                    <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-                                    <td valign="top" align="center" style="padding-top:20px;padding-right:0;padding-bottom:0;padding-left:0;color:#999999;font-family: 'ProximaNova', Helvetica, Arial;font-size:14px;line-height:24px;text-align:center" class="text">
-                                        Happy (password-free!) authenticating, <br>
-                                        The Auth0 Team
                                     </td>
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
                                 </tr>
@@ -243,7 +244,7 @@
                                 <tr>
 
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
-                                    <td valign="top" align="center" style="padding-top:16px;padding-right:0;padding-bottom:0;padding-left:0;color:#4a4a4a;font-family: 'ProximaNova', Helvetica, Arial;font-size:16px;line-height:24px;text-align:center" class="subtitle">Happy Authenticating,</td>
+                                    <td valign="top" align="center" style="padding-top:16px;padding-right:0;padding-bottom:0;padding-left:0;color:#4a4a4a;font-family: 'ProximaNova', Helvetica, Arial;font-size:16px;line-height:24px;text-align:center" class="subtitle">Happy (password-free!) authenticating,</td>
                                     <td style="font-size: 1px; line-height: 1px;" width="20">&nbsp;</td>
 
                                 </tr>
